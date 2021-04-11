@@ -238,22 +238,22 @@
     "@webassemblyjs/ast" "1.11.0"
     "@xtuc/long" "4.2.2"
 
-"@webpack-cli/configtest@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@webpack-cli/configtest/-/configtest-1.0.0.tgz#2aff5f1ebc6f793c13ba9b2a701d180eab17f5ee"
-  integrity sha512-Un0SdBoN1h4ACnIO7EiCjWuyhNI0Jl96JC+63q6xi4HDUYRZn8Auluea9D+v9NWKc5J4sICVEltdBaVjLX39xw==
+"@webpack-cli/configtest@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@webpack-cli/configtest/-/configtest-1.0.2.tgz#2a20812bfb3a2ebb0b27ee26a52eeb3e3f000836"
+  integrity sha512-3OBzV2fBGZ5TBfdW50cha1lHDVf9vlvRXnjpVbJBa20pSZQaSkMJZiwA8V2vD9ogyeXn8nU5s5A6mHyf5jhMzA==
 
-"@webpack-cli/info@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@webpack-cli/info/-/info-1.2.1.tgz#af98311f983d0b9fce7284cfcf1acaf1e9f4879c"
-  integrity sha512-fLnDML5HZ5AEKzHul8xLAksoKN2cibu6MgonkUj8R9V7bbeVRkd1XbGEGWrAUNYHbX1jcqCsDEpBviE5StPMzQ==
+"@webpack-cli/info@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@webpack-cli/info/-/info-1.2.3.tgz#ef819d10ace2976b6d134c7c823a3e79ee31a92c"
+  integrity sha512-lLek3/T7u40lTqzCGpC6CAbY6+vXhdhmwFRxZLMnRm6/sIF/7qMpT8MocXCRQfz0JAh63wpbXLMnsQ5162WS7Q==
   dependencies:
     envinfo "^7.7.3"
 
-"@webpack-cli/serve@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@webpack-cli/serve/-/serve-1.2.2.tgz#1f8eee44f96524756268f5e3f43e9d943f864d41"
-  integrity sha512-03GkWxcgFfm8+WIwcsqJb9agrSDNDDoxaNnexPnCCexP5SCE4IgFd9lNpSy+K2nFqVMpgTFw6SwbmVAVTndVew==
+"@webpack-cli/serve@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@webpack-cli/serve/-/serve-1.3.1.tgz#911d1b3ff4a843304b9c3bacf67bb34672418441"
+  integrity sha512-0qXvpeYO6vaNoRBI52/UsbcaBydJCggoBBnIo/ovQQdn6fug0BgwsjorV1hVS7fMqGVTZGcVxv8334gjmbj5hw==
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -461,10 +461,10 @@ commander@^4.1.1:
   resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
   integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
 
-commander@^6.2.0:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
-  integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
+commander@^7.0.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
+  integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -641,6 +641,23 @@ es-module-lexer@^0.3.26:
   version "0.3.26"
   resolved "https://registry.yarnpkg.com/es-module-lexer/-/es-module-lexer-0.3.26.tgz#7b507044e97d5b03b01d4392c74ffeb9c177a83b"
   integrity sha512-Va0Q/xqtrss45hWzP8CZJwzGSZJjDM5/MJRE3IXXnUCcVLElR9BRaE9F62BopysASyc4nM3uwhSW7FFB9nlWAA==
+
+esbuild-loader@^2.9.2:
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/esbuild-loader/-/esbuild-loader-2.9.2.tgz#ae16721aeb05018396395a95f528c778ba7361d0"
+  integrity sha512-HpF+r/ES2aC40VDOIFsP8OIOM2y2vj8LyLwJ4G8DCMOi8Kov68TwCtxiMMTuSuxR/xKDu/ykgVyCEgps6BXpYw==
+  dependencies:
+    esbuild "^0.8.42"
+    joycon "^2.2.5"
+    json5 "^2.2.0"
+    loader-utils "^2.0.0"
+    type-fest "^0.20.2"
+    webpack-sources "^2.2.0"
+
+esbuild@^0.8.42:
+  version "0.8.57"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.57.tgz#a42d02bc2b57c70bcd0ef897fe244766bb6dd926"
+  integrity sha512-j02SFrUwFTRUqiY0Kjplwjm1psuzO1d6AjaXKuOR9hrY0HuPsT6sV42B6myW34h1q4CRy+Y3g4RU/cGJeI/nNA==
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -947,6 +964,11 @@ jest-worker@^26.6.2:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
+joycon@^2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/joycon/-/joycon-2.2.5.tgz#8d4cf4cbb2544d7b7583c216fcdfec19f6be1615"
+  integrity sha512-YqvUxoOcVPnCp0VU1/56f+iKSdvIRJYPznH22BdXV3xMk75SFXhWeJkZ8C9XxUWt1b5x2X1SxuFygW1U0FmkEQ==
+
 json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
@@ -968,6 +990,13 @@ json5@^2.1.2:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.3.tgz#c9b0f7fa9233bfe5807fe66fcf3a5617ed597d43"
   integrity sha512-KXPvOm8K9IJKFM0bmdn8QXh7udDh1g/giieX0NLCaMnb4hEiVFqnop2ImTXCc5e0/oHz3LTqmHGtExn5hfMkOA==
+  dependencies:
+    minimist "^1.2.5"
+
+json5@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.0.tgz#2dfefe720c6ba525d9ebd909950f0515316c89a3"
+  integrity sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==
   dependencies:
     minimist "^1.2.5"
 
@@ -1602,6 +1631,11 @@ type-fest@^0.11.0:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.11.0.tgz#97abf0872310fed88a5c466b25681576145e33f1"
   integrity sha512-OdjXJxnCN1AvyLSzeKIgXTXxV+99ZuXl3Hpo9XpJAv9MBcHrrJOQ5kV7ypXOuQie+AmWG25hLbiKdwYTifzcfQ==
 
+type-fest@^0.20.2:
+  version "0.20.2"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.20.2.tgz#1bf207f4b28f91583666cb5fbd327887301cd5f4"
+  integrity sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
+
 typescript@^4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.3.tgz#519d582bd94cba0cf8934c7d8e8467e473f53bb7"
@@ -1637,17 +1671,17 @@ watchpack@^2.0.0:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
 
-webpack-cli@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-4.4.0.tgz#38c7fa01ea31510f5c490245dd1bb28018792f1b"
-  integrity sha512-/Qh07CXfXEkMu5S8wEpjuaw2Zj/CC0hf/qbTDp6N8N7JjdGuaOjZ7kttz+zhuJO/J5m7alQEhNk9lsc4rC6xgQ==
+webpack-cli@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-4.6.0.tgz#27ae86bfaec0cf393fcfd58abdc5a229ad32fd16"
+  integrity sha512-9YV+qTcGMjQFiY7Nb1kmnupvb1x40lfpj8pwdO/bom+sQiP4OBMKjHq29YQrlDWDPZO9r/qWaRRywKaRDKqBTA==
   dependencies:
     "@discoveryjs/json-ext" "^0.5.0"
-    "@webpack-cli/configtest" "^1.0.0"
-    "@webpack-cli/info" "^1.2.1"
-    "@webpack-cli/serve" "^1.2.2"
+    "@webpack-cli/configtest" "^1.0.2"
+    "@webpack-cli/info" "^1.2.3"
+    "@webpack-cli/serve" "^1.3.1"
     colorette "^1.2.1"
-    commander "^6.2.0"
+    commander "^7.0.0"
     enquirer "^2.3.6"
     execa "^5.0.0"
     fastest-levenshtein "^1.0.12"
@@ -1665,7 +1699,7 @@ webpack-merge@^5.7.3:
     clone-deep "^4.0.1"
     wildcard "^2.0.0"
 
-webpack-sources@^2.1.1:
+webpack-sources@^2.1.1, webpack-sources@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-2.2.0.tgz#058926f39e3d443193b6c31547229806ffd02bac"
   integrity sha512-bQsA24JLwcnWGArOKUxYKhX3Mz/nK1Xf6hxullKERyktjNMC4x8koOeaDNTA2fEJ09BdWLbM/iTW0ithREUP0w==
